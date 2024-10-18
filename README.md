@@ -1,3 +1,9 @@
+# ! IMPORTANT NOTICE !
+This is a personal fork of this mod not designed to replace it.
+Things can and will be broken in this fork
+
+contact: @grace_god
+
 # ChilloutVR Custom Nameplates
 
 Modified Nameplates, which look more modern and sleek than the default look.
