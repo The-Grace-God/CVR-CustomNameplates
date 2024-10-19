@@ -28,6 +28,11 @@ namespace Tayou.CustomNameplateMod {
             Mod.CustomNameplateHelpers.Remove(playerNameplate);
         }
 
+        private bool IsMicActive()
+        {
+            return playerNameplate.puppetMaster != null && playerNameplate.puppetMaster._pipeline != null && playerNameplate.puppetMaster._pipeline._rawAmplitude >= 0.01f;
+        }
+
         private void SaveOriginalData() {
             Mod.DataOriginal.backgroundImage = playerNameplate.nameplateBackground.sprite;
             Mod.DataOriginal.backgroundImageScale = playerNameplate.nameplateBackground.transform.localScale;
@@ -108,10 +113,10 @@ namespace Tayou.CustomNameplateMod {
             if (!isInitialized)
                 return;
 
-            GetNameplateColor(out Color32 backgroundColor, out Color32 textColor, playerNameplate.wasTalking);
+            GetNameplateColor(out Color32 backgroundColor, out Color32 textColor, IsMicActive());
 
             playerNameplate.friendsImage.gameObject.SetActive(Mod.showFriendIcon.EditedValue);
-            SetMicImage(playerNameplate.wasTalking && Mod.showMicIcon.EditedValue);
+            SetMicImage(IsMicActive() && Mod.showMicIcon.EditedValue);
 
             playerNameplate.transform.Find("Canvas/Content/TMP:Username").gameObject.GetComponent<TextMeshProUGUI>().color = textColor;
 

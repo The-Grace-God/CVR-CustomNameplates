@@ -35,7 +35,7 @@
   <ItemGroup>
     <Reference Include="0Harmony, Version=2.9.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>W:\SteamLibrary\steamapps\common\ChilloutVR\BepInEx\core\0Harmony.dll</HintPath>
+      <HintPath>..\ManagedLibs\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Accessibility">
       <HintPath>..\ManagedLibs\Accessibility.dll</HintPath>
@@ -111,7 +111,7 @@
     </Reference>
     <Reference Include="MelonLoader, Version=0.5.4.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>W:\SteamLibrary\steamapps\common\ChilloutVR\MelonLoader\MelonLoader\MelonLoader.dll</HintPath>
+      <HintPath>..\ManagedLibs\MelonLoader.dll</HintPath>
     </Reference>
     <Reference Include="MeshBakerCore">
       <HintPath>..\ManagedLibs\MeshBakerCore.dll</HintPath>

@@ -5,12 +5,12 @@ using Tayou.CustomNameplateMod;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CustomNameplates")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("CustomNameplates Rework")]
+[assembly: AssemblyDescription("A tool to let you customize and change your nameplate to your liking")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CustomNameplates")]
-[assembly: AssemblyCopyright("Copyright ©  2022")]
+[assembly: AssemblyCompany("SMUFED")]
+[assembly: AssemblyProduct("CustomNameplates Custom")]
+[assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

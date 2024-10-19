@@ -7,7 +7,7 @@ using MelonLoader;
 using Tayou.CustomNameplateMod;
 using UnityEngine;
 
-[assembly: MelonInfo(typeof(Mod), "Custom Nameplates", Mod.Version, "Tayou")]
+[assembly: MelonInfo(typeof(Mod), "Custom Nameplates Rework", Mod.Version, "SMUFED")]
 [assembly: MelonColor(ConsoleColor.Yellow)]
 [assembly: MelonGame("Alpha Blend Interactive", "ChilloutVR")]
 [assembly: HarmonyDontPatchAll]
