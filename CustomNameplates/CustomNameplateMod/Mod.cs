@@ -8,13 +8,13 @@ using Tayou.CustomNameplateMod;
 using UnityEngine;
 
 [assembly: MelonInfo(typeof(Mod), "Custom Nameplates Rework", Mod.Version, "SMUFED")]
-[assembly: MelonColor(ConsoleColor.Yellow)]
+[assembly: MelonColor(ConsoleColor.Magenta)]
 [assembly: MelonGame("Alpha Blend Interactive", "ChilloutVR")]
 [assembly: HarmonyDontPatchAll]
 namespace Tayou.CustomNameplateMod {
     public class Mod : MelonMod {
         // When updating the mod, change version here and in manifest.json
-        public const string Version = "1.1.3";
+        public const string Version = "1.1.4";
 
         public static MelonPreferences_Entry<bool> enabled;
         public static MelonPreferences_Entry<Color32> defaultColor;

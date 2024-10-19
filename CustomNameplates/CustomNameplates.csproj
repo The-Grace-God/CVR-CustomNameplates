@@ -803,7 +803,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy "$(TargetPath)" "%CVRPATH%\Mods" /Y /I
+    <PostBuildEvent>xcopy "$(TargetPath)" "F:\CVR mods\Custom Nameplates\CVR-CustomNameplates\bin" /Y /I
 </PostBuildEvent>
   </PropertyGroup>
 </Project>
